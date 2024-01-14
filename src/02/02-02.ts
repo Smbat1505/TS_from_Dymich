@@ -7,7 +7,7 @@ type AddressType = {
     street: StreetType
 }
 
-interface HouseType {
+export interface HouseType {
     id?: number
     builtAt: number
     repaired: boolean
